@@ -1,11 +1,9 @@
-import utility
-import shopping.shopping_card
+#from utility import *
+from utility import multiply, divide
+from shopping.more_shopping import shopping_card
 
-print(utility)  # <module 'utility' from 'C:\\Users\\javie\\Desktop\\programming-courses\\python-course\\python-modules\\utility.py'>
+print(divide(4, 2))
+print(multiply(2, 2))
+print(shopping_card.buy('apple'))
 
-utility.divide(4, 2)
-utility.multiply(2, 2)
-
-print(shopping.shopping_card)# <module 'shopping.shopping_card' from 'C:\\Users\\javie\\Desktop\\programming-courses\\python-course\\python-modules\\shopping\\shopping_card.py'>
-
-shopping.shopping_card.buy('apple')
+print(max([1,2,3]))
