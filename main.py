@@ -5,12 +5,14 @@ print(__name__)#__main__
 #import random as m_random
 from random import shuffle
 import sys
+import pyjokes
 
 if __name__ == '__main__':
+    print(pyjokes.get_joke('en', 'neutral'))
+    '''
     first_name = sys.argv[1]
     last_name = sys.argv[2]
     print(f'hello {first_name} {last_name}')
-    '''
     my_list = [1,2,3,4,5]
     shuffle(my_list)
     print(my_list)
